@@ -85,9 +85,7 @@ class Library {
 
 class LibraryManagementSystem {
     public static void main(String[] args) {
-        Library library = new Library();
-
-        // Adding some sample books
+        Library library = new Library();
         library.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", 123456));
         library.addBook(new Book("To Kill a Mockingbird", "Harper Lee", 789012));
         library.addBook(new Book("1984", "George Orwell", 345678));
